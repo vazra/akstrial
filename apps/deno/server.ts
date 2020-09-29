@@ -1,7 +1,7 @@
 import { Application } from 'https://deno.land/x/oak/mod.ts'
 import { Router } from 'https://deno.land/x/oak/mod.ts'
 
-const port = 8080
+const port = 80
 const router = new Router()
 
 const app = new Application()

@@ -22,7 +22,7 @@ func main() {
 		primes := sieveOfEratosthenes(int(cal))	
     c.JSON(http.StatusOK, gin.H{"no":theNo, "primes":len(primes),"time":0 })    
 	})
-	router.Run(":8080")
+	router.Run(":80")
 }
 
 func sieveOfEratosthenes(N int) (primes []int) {
